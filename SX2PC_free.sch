@@ -6165,6 +6165,9 @@ Source: www.kingbright.com</description>
 <wire x1="50.8" y1="33.02" x2="50.8" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
 <junction x="50.8" y="55.88"/>
+<pinref part="U$1" gate="G$1" pin="F-5"/>
+<wire x1="35.56" y1="33.02" x2="35.56" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="45.72" x2="50.8" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
