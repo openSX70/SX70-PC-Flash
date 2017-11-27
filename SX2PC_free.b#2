@@ -147,7 +147,7 @@
 <wire x1="0" y1="0" x2="20.244" y2="0" width="0" layer="20"/>
 <wire x1="20.244" y1="0" x2="20.244" y2="26.787" width="0" layer="20"/>
 <wire x1="20.244" y1="26.787" x2="0" y2="26.787" width="0" layer="20"/>
-<wire x1="0" y1="26.787" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="26.787" x2="0" y2="26.67" width="0" layer="20"/>
 <text x="10.16" y="15.24" size="1.778" layer="16" font="vector" ratio="16" rot="MR0" align="center">openSX70.com
 open-source
 arduino-based
@@ -156,6 +156,11 @@ camera control
 join us!</text>
 <text x="15.748" y="18.288" size="1.016" layer="1" font="vector" ratio="16" align="center">free PC
 adapter</text>
+<wire x1="0" y1="25.4" x2="0" y2="0" width="0.1524" layer="20"/>
+<wire x1="0" y1="0" x2="20.32" y2="0" width="0.1524" layer="20"/>
+<wire x1="20.32" y1="0" x2="20.32" y2="26.67" width="0.1524" layer="20"/>
+<wire x1="20.32" y1="26.67" x2="0" y2="26.67" width="0.1524" layer="20"/>
+<wire x1="0" y1="26.67" x2="0" y2="25.4" width="0.1524" layer="20"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -1522,7 +1527,9 @@ design rules under a new name.</description>
 <vertex x="0" y="0"/>
 <vertex x="0" y="26.67"/>
 </polygon>
+<via x="1.397" y="7.493" extent="1-16" drill="0.35"/>
 <wire x1="19.0248" y1="3.04926875" x2="19.049996875" y2="3.04926875" width="0" layer="19" extent="1-1"/>
+<via x="17.907" y="24.003" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="N$3">
 <contactref element="OK1" pad="1"/>
